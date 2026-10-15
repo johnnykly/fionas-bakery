@@ -173,8 +173,7 @@ def layout(meta: dict, body: str) -> str:
 <meta property="og:url" content="{canonical}">
 <meta property="og:image" content="{og_image}">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#fbf7f0" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#1d1613" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#fbf7f0">
 <link rel="icon" href="{root}assets/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="{root}assets/fonts/bricolage-grotesque.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="{root}assets/fonts/hanken-grotesk.woff2" as="font" type="font/woff2" crossorigin>

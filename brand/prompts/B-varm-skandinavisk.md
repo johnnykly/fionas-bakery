@@ -6,7 +6,7 @@ Build a complete, working prototype of a new website for Fiona's Bakery, a one-p
 
 Visual territory: **a Scandinavian kitchen table on a Saturday morning.** Light from the window, butter-yellow and terracotta crockery, and in the middle, the cake. Everything around the cake is calm so the cake can be loud.
 
-- Palette: flour-white ground `#FBF7F0`, cocoa text `#2A201B`, one accent terracotta `#A9482A` (buttons, links, key highlights), butter yellow `#F3D98B` as a warm field color for a few blocks (never for text). Dark mode: cocoa ground, flour text, lighter terracotta.
+- Palette: flour-white ground `#FBF7F0`, cocoa text `#2A201B`, one accent terracotta `#A9482A` (buttons, links, key highlights), butter yellow `#F3D98B` as a warm field color for a few blocks (never for text).
 - Type: a bold, friendly grotesque with character for headings (Bricolage Grotesque, tight tracking, heavy weights) and Hanken Grotesk for body. Emphasis with weight or italic of the same family, never a mixed serif word.
 - Layout: big real photos, confident oversized headings, asymmetric splits, a bento-style occasion grid with mixed tile sizes, butter-yellow color blocks, rounded corners on one scale (cards 20 px, images 16 px, buttons fully pill).
 - Motion: brisk reveal-on-scroll (fade + 16 px rise, 300-450 ms, staggered), tactile button press, slight image scale on hover. Respect reduced motion.
@@ -92,6 +92,6 @@ Submission: GitHub Pages is static. Support a configurable endpoint (Formspree/W
 
 - Static site for GitHub Pages, no framework required. Plain HTML/CSS/JS, optional tiny build script (Python or Node) to share header/footer across pages; output folder deployed by GitHub Actions or served from `/docs`.
 - Self-hosted variable fonts (Fontsource packages). Icons from Phosphor (copied SVGs, one weight). No hand-drawn icons.
-- Light and dark mode via `prefers-color-scheme`. Respect `prefers-reduced-motion`.
+- Light mode only, also when the device is set to dark mode (the brand is a sunlit kitchen table). Respect `prefers-reduced-motion`.
 - Accessibility: WCAG 2.2 AA, skip link, visible focus, active nav state, keyboard-friendly mobile menu.
 - New logo: design an original SVG wordmark + simple mark (no existing logo to keep). Provide favicon.svg.

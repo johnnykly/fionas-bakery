@@ -16,14 +16,17 @@ no framework. Dials: variance 6, motion 4, density 3.
 
 ## Tokens (`src/assets/css/site.css`)
 
-| Role | Light | Dark |
-|---|---|---|
-| `--bg` page ground | `#fbf7f0` Mjölvit | `#1d1613` |
-| `--surface` quiet panels | `#f3eadb` | `#2a201b` |
-| `--field` warm color blocks | `#f3d98b` Smörgul | `#3a2d1c` |
-| `--ink` text | `#2a201b` Kakao | `#f5ede2` |
-| `--muted` secondary text | `#65554b` | `#c9b9aa` |
-| `--accent` the only accent | `#a9482a` Terrakotta | `#e3906d` |
+| Role | Value |
+|---|---|
+| `--bg` page ground | `#fbf7f0` Mjölvit |
+| `--surface` quiet panels | `#f3eadb` |
+| `--field` warm color blocks | `#f3d98b` Smörgul |
+| `--ink` text | `#2a201b` Kakao |
+| `--muted` secondary text | `#65554b` |
+| `--accent` the only accent | `#a9482a` Terrakotta |
+
+The site is light only, also on devices set to dark mode: the brand's territory
+is a sunlit kitchen table, and the photos are shot on light grounds.
 
 Butter yellow is a field color only, never text. One accent per page.
 
